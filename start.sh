@@ -17,7 +17,7 @@ export CORE_PEER_LOCALMSPID="Org1MSP"
 export CORE_PEER_MSPCONFIGPATH=${PWD}/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 export CORE_PEER_ADDRESS=localhost:7051
 
-export FABRIC_CFG_PATH=/home/bstudent/fabric-samples/config
+export FABRIC_CFG_PATH=/home/ec2-user/go/src/github.com/smartcity/fabric-samples/config
 
 #2 채널생성
 peer channel create -o localhost:7050 -c mychannel -f ./config/mychannel.tx --outputBlock ./config/mychannel.block 
