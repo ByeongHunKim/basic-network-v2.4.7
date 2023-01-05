@@ -2,7 +2,7 @@
 
 set -x
 
-export PATH=$PATH:/home/bstudent/fabric-samples/bin;
+export PATH=$PATH:/home/ec2-user/go/src/github.com/smartcity/fabric-samples/bin
 export FABRIC_CFG_PATH=${PWD}
 
 #1 컨테이너 생성 및 도커네트워크 생성
